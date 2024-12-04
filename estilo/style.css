@@ -7,6 +7,10 @@
 }
 /* Boot CSS */
 
+img{
+    width: 100%;
+}
+
 .center{
     max-width: 1280px;
     padding: 0 2%;
@@ -26,6 +30,7 @@
 }
 .w33{
     width: 33.3%;
+    padding: 0 10px;
 }
 
 /* Estilização do site */
@@ -125,6 +130,20 @@ form input[type="submit"]{
     justify-content: space-between; /* Espaçar os itens entre si */
     align-items: center; /* Alinha verticalmente no centro */
 }
+section.descricao-autor{
+    padding: 40px 0;
+}
+section.descricao-autor h2{
+    font-size: 28px;
+    font-weight: 300;
+    color: #444;
+}
+section.descricao-autor p{
+    font-size: 16px;
+    color: #444;
+    font-weight: 300;
+    margin-top: 10px;
+}
 
 .w50 {
     width: 48%; /* Ajuste para garantir que as duas divs caibam lado a lado */
@@ -145,22 +164,90 @@ form input[type="submit"]{
     clear: both;
 }
 /* Estilizando as especialidades */
-/* section.especialidades h2{
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 10px;
-} */
-.especialidades{
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-   background-color: #3d437a;
-   /* height: 400px; */
-   color: white;
-   padding: 100px;
+section.especialidades{
+    padding: 40px 0;
+    background: #E2E2E2;
 }
-.especialidades h2{
-    text-transform: uppercase;
+section.especialidades h2.title{
+    font-size: 30px;
     text-align: center;
+    font-weight: 400;
+    color: #999;
+}
+.box-especialidade{
+    margin: 40px 0;
+    padding: 0 30px;
+    text-align: center;
+}
+.box-especialidade h3{
+    font-size: 39px;
+    color: #3d437a;
+}
+.box-especialidade h4{
+    font-size: 25px;
+    font-weight: 300;
+    color: #BABABA;
+}
+.box-especialidade p{
+    color: #444;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+/* Responsividade */
+@media screen and (max-width:700px){
+    nav.desktop{
+        display: none;
+    }
+    nav.mobile{
+        display: block;
+    }
+    nav.mobile ul{
+        display: none;
+        width: 100%;
+        top: 55px;
+        position: absolute;
+        left: 0;
+        display: block;
+        z-index: 3;
+        text-align: center;
+    }
+    .botao-menu-mobile{
+        font-size: 24px;
+        cursor: pointer;
+        color: white;
+    }
+    nav.mobile li{
+        font-weight: 300;
+        width: 100%;
+        display: block;
+        background: white;
+        border-bottom: 1px solid #ccc;
+        font-size: 17px;
+        padding: 5px 0;
+    }
+    nav.mobile a{
+        display: block;
+        color: #444;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width:768px){
+    .box-especialidade{
+        margin: 10px;
+    }
+    .w50{
+        padding: 20px;
+        width: 100%;
+    }
+    .descricao-autor{
+        font-size: clamp(1em, 1em+1vw, 1.25em);
+    }
+    .w33{
+        width: 100%;
+        padding: 20px;
+    }
+    
+    
 }

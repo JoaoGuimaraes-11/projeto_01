@@ -22,6 +22,9 @@
                 </ul>
             </nav>
             <nav class="mobile right">
+                <div class="botao-menu-mobile">
+                <i class="fa-solid fa-bars"></i>
+                </div>
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Sobre</a></li>
@@ -52,7 +55,7 @@
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eum fuga facilis voluptates quod excepturi quas vel odio velit illo, sunt magni perferendis laboriosam hic eius minima suscipit ipsum recusandae.</p>
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eum fuga facilis voluptates quod excepturi quas vel odio velit illo, sunt magni perferendis laboriosam hic eius minima suscipit ipsum recusandae.</p>
         </div><!--W50-->
-        <div class="w50 left">
+        <div class="w50 left responsive">
             <!--Pegar imagem depois-->
             <img src="images/foto.jpg" alt="">
         </div><!--W50-->
@@ -65,19 +68,20 @@
         <h2 class="title">Especialidades</h2>
             <div class="w33 left box-especialidade">
                 <h3><i class="fa-brands fa-css3"></i></h3>
-                <h3>CSS3</h3>
+                <h4>CSS3</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic saepe, itaque eum, architecto ab perspiciatis earum beatae a, quia numquam officiis eaque doloremque aliquid aliquam. Vel culpa numquam mollitia voluptas.</p>
             </div><!--Box-especialidade-->
             <div class="w33 left box-especialidade">
                 <h3><i class="fa-brands fa-html5"></i></h3>
-                <h3>HTML5</h3>
+                <h4>HTML5</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic saepe, itaque eum, architecto ab perspiciatis earum beatae a, quia numquam officiis eaque doloremque aliquid aliquam. Vel culpa numquam mollitia voluptas.</p>
             </div><!--Box-especialidade-->
             <div class="w33 left box-especialidade">
                 <h3><i class="fa-brands fa-js"></i></h3>
-                <h3>JAVASCRIPT</h3>
+                <h4>JAVASCRIPT</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic saepe, itaque eum, architecto ab perspiciatis earum beatae a, quia numquam officiis eaque doloremque aliquid aliquam. Vel culpa numquam mollitia voluptas.</p>
             </div><!--Box-especialidade-->
+            <div class="clear"></div>
         </div><!--Center-->
     </section><!--Especialidades-->
 

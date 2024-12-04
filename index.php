@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    
     <link rel="stylesheet" href="estilo/style.css">
     <title>Projeto 01</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-
 <body>
     <header>
         <div class="center">
@@ -39,77 +36,50 @@
     <section class="banner-principal">
         <div class="overlay"></div>
         <div class="center">
-            <form action="#">
-                <h2>Qual o seu melhor e-mail</h2>
-                <input type="email" name="email" required>
-                <input type="submit" name="acao" value="Cadastrar">
-            </form>
+        <form action="#">
+            <h2>Qual o seu melhor e-mail</h2>
+            <input type="email" name="email" required>
+            <input type="submit" name="acao" value="Cadastrar">
+        </form>
         </div><!--Center-->
         <div class="clear"></div>
     </section> <!--Banner principal-->
-
+    
     <section class="descricao-autor">
         <div class="center">
-            <div class="w50 left">
-                <h2>Joao Vitor</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eum fuga facilis voluptates quod excepturi quas vel odio velit illo, sunt magni perferendis laboriosam hic eius minima suscipit ipsum recusandae.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eum fuga facilis voluptates quod excepturi quas vel odio velit illo, sunt magni perferendis laboriosam hic eius minima suscipit ipsum recusandae.</p>
-            </div><!--W50-->
-            <div class="w50 left">
-                <!--Pegar imagem depois-->
-                <img src="images/foto.jpg" alt="">
-            </div><!--W50-->
-            <div class="clear"></div>
+        <div class="w50 left">
+         <h2>Joao Vitor</h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eum fuga facilis voluptates quod excepturi quas vel odio velit illo, sunt magni perferendis laboriosam hic eius minima suscipit ipsum recusandae.</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eum fuga facilis voluptates quod excepturi quas vel odio velit illo, sunt magni perferendis laboriosam hic eius minima suscipit ipsum recusandae.</p>
+        </div><!--W50-->
+        <div class="w50 left">
+            <!--Pegar imagem depois-->
+            <img src="images/foto.jpg" alt="">
+        </div><!--W50-->
+        <div class="clear"></div>
         </div><!--Center-->
     </section><!--Descricao autor-->
 
-    <div class="container-fluid">
-        <div class="row">
-            <section class="especialidades">
-              
-                    <div class="row">
-                        <h2 class="title">Especialidades</h2>
-                    </div>
-                  <!--Box-especialidade-->
-                    <div class="col-md-3 col-sm-12">
-                        <div class="card" style="width: 18rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">Html 5</h5>
-                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="card-link">Card link</a>
-                                <a href="#" class="card-link">Another link</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-12">
-                        <div class="card" style="width: 18rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">Html 5</h5>
-                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="card-link">Card link</a>
-                                <a href="#" class="card-link">Another link</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-12">
-                        <div class="card" style="width: 18rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">Html 5</h5>
-                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="card-link">Card link</a>
-                                <a href="#" class="card-link">Another link</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Box-especialidade-->
-                    <!--Box-especialidade-->
-            
-            </section>
-        </div>
-    </div><!--Especialidades-->
+    <section class="especialidades">
+        <div class="center">
+        <h2 class="title">Especialidades</h2>
+            <div class="w33 left box-especialidade">
+                <h3><i class="fa-brands fa-css3"></i></h3>
+                <h3>CSS3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic saepe, itaque eum, architecto ab perspiciatis earum beatae a, quia numquam officiis eaque doloremque aliquid aliquam. Vel culpa numquam mollitia voluptas.</p>
+            </div><!--Box-especialidade-->
+            <div class="w33 left box-especialidade">
+                <h3><i class="fa-brands fa-html5"></i></h3>
+                <h3>HTML5</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic saepe, itaque eum, architecto ab perspiciatis earum beatae a, quia numquam officiis eaque doloremque aliquid aliquam. Vel culpa numquam mollitia voluptas.</p>
+            </div><!--Box-especialidade-->
+            <div class="w33 left box-especialidade">
+                <h3><i class="fa-brands fa-js"></i></h3>
+                <h3>JAVASCRIPT</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic saepe, itaque eum, architecto ab perspiciatis earum beatae a, quia numquam officiis eaque doloremque aliquid aliquam. Vel culpa numquam mollitia voluptas.</p>
+            </div><!--Box-especialidade-->
+        </div><!--Center-->
+    </section><!--Especialidades-->
 
     <section class="extras">
         <div class="center">
@@ -149,6 +119,4 @@
     </footer>
     <script src="https://kit.fontawesome.com/9aff4d7fb2.js" crossorigin="anonymous"></script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
 </html>

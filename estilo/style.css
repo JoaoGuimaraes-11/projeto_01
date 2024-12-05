@@ -125,7 +125,8 @@ form input[type="submit"]{
     padding-top: 30px;
     background-color: #ccc;
 }
-.descricao-autor .center {
+.descricao-autor{
+    width: 100%;
     display: flex; /* Usar flexbox para alinhamento lado a lado */
     justify-content: space-between; /* Espaçar os itens entre si */
     align-items: center; /* Alinha verticalmente no centro */
@@ -144,7 +145,6 @@ section.descricao-autor p{
     font-weight: 300;
     margin-top: 10px;
 }
-
 .w50 {
     width: 48%; /* Ajuste para garantir que as duas divs caibam lado a lado */
 }
@@ -157,7 +157,7 @@ section.descricao-autor p{
     width: 100%; /* A imagem ocupará toda a largura disponível */
     max-width: 400px; /* Aumenta o tamanho máximo da imagem */
     height: auto; /* Mantém a proporção da imagem */
-    margin-left: 60px; /* Adiciona um espaço à esquerda para afastar a imagem da borda */
+    margin-left: 100px; /* Adiciona um espaço à esquerda para afastar a imagem da borda */
 }
 
 .clear {
@@ -194,7 +194,83 @@ section.especialidades h2.title{
     margin-top: 10px;
 }
 
+/* Footer */
+footer{
+    background: #535991;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 300;
+}
+/* Extras */
+section.extras{
+    padding: 30px 0;
+    background: #404580;
+    color: white;
+    font-weight: 300;
+}
+.depoimentos-container,.servicos-container{
+    padding: 5%;
+}
+section.extras .title{
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+.depoimento-single{
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+}
+p.depoimento-descricao{
+    font-size: 15px;
+    color: white;
+}
+p.nome-autor{
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.servicos-container h2{
+    font-size: 25px;
+    font-family: 300;
+    margin-bottom: 15px;
+}
+.servicos-container ul li{
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+
+
 /* Responsividade */
+@media screen and (max-width:768px){
+    .box-especialidade{
+        margin: 10px;
+    }
+    .w50{
+        padding: 20px;
+        width: 100%;
+    }
+    .descricao-autor{
+        font-size: clamp(1em, 1em+1vw, 1.25em);
+        flex-direction: column;
+    }
+    .w33{
+        width: 100%;
+        padding: 20px;
+    }
+    img{
+        display: none;
+        width: 0;
+    }
+    .descricao-autor h2{
+        text-align: center;
+        padding-bottom: 15px;
+    }
+  
+    
+}
 @media screen and (max-width:700px){
     nav.desktop{
         display: none;
@@ -208,7 +284,6 @@ section.especialidades h2.title{
         top: 55px;
         position: absolute;
         left: 0;
-        display: block;
         z-index: 3;
         text-align: center;
     }
@@ -233,21 +308,3 @@ section.especialidades h2.title{
     }
 }
 
-@media screen and (max-width:768px){
-    .box-especialidade{
-        margin: 10px;
-    }
-    .w50{
-        padding: 20px;
-        width: 100%;
-    }
-    .descricao-autor{
-        font-size: clamp(1em, 1em+1vw, 1.25em);
-    }
-    .w33{
-        width: 100%;
-        padding: 20px;
-    }
-    
-    
-}

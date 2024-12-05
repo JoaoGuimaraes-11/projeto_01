@@ -51,13 +51,15 @@
     <section class="descricao-autor">
         <div class="center">
         <div class="w50 left">
-         <h2>Joao Vitor</h2>
+         <h2 class="teste">Joao Vitor</h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eum fuga facilis voluptates quod excepturi quas vel odio velit illo, sunt magni perferendis laboriosam hic eius minima suscipit ipsum recusandae.</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eum fuga facilis voluptates quod excepturi quas vel odio velit illo, sunt magni perferendis laboriosam hic eius minima suscipit ipsum recusandae.</p>
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eum fuga facilis voluptates quod excepturi quas vel odio velit illo, sunt magni perferendis laboriosam hic eius minima suscipit ipsum recusandae.</p>
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eum fuga facilis voluptates quod excepturi quas vel odio velit illo, sunt magni perferendis laboriosam hic eius minima suscipit ipsum recusandae.</p>
         </div><!--W50-->
         <div class="w50 left responsive">
             <!--Pegar imagem depois-->
-            <img src="images/foto.jpg" alt="">
+            <img class="autor" src="images/foto.jpg" alt="">
         </div><!--W50-->
         <div class="clear"></div>
         </div><!--Center-->
@@ -87,8 +89,8 @@
 
     <section class="extras">
         <div class="center">
-            <div class="w50 left">
-                <h2 class="title">Depoimentos</h2>
+            <div class="w50 left depoimentos-container">
+                <h2 class="title">Depoimentos Dos Nossos Clientes</h2>
                 <div class="depoimento-single">
                     <p class="depoimento-descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia autem repellendus, iste incidunt commodi ullam tempore, reiciendis officiis nostrum, expedita maxime labore magnam sint voluptates blanditiis eveniet inventore ab dolores.</p>
                     <p class="nome-autor">Lorem Ipsum</p>
@@ -102,9 +104,9 @@
                     <p class="nome-autor">Lorem Ipsum</p>
                 </div><!--depoimento-single-->
             </div><!--W50-->
-            <div class="w50 left">
+            <div class="w50 left servicos-container">
                 <h2 class="title">Serviços</h2>
-                <div class="serivocs">
+                <div class="servicos">
                     <ul>
                         <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam qui commodi odio aperiam non sequi. Fuga ea est, mollitia atque temporibus, deserunt animi accusantium quasi eligendi, cum impedit provident esse!</li>
                         <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam qui commodi odio aperiam non sequi. Fuga ea est, mollitia atque temporibus, deserunt animi accusantium quasi eligendi, cum impedit provident esse!</li>
@@ -122,5 +124,7 @@
         </div><!--Center-->
     </footer>
     <script src="https://kit.fontawesome.com/9aff4d7fb2.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>

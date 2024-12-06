@@ -38,7 +38,8 @@ header{
     background-color: #3d437a ;
     padding: 20px 0;
 }
-header .logo{
+header .logo a{
+    text-decoration: none;
     font-size: 23px;
     color: white;
     text-transform: uppercase;
@@ -112,13 +113,17 @@ form input[type="email"]:focus {
 }
 form input[type="submit"]{
     padding: 10px;
-    width: 200px;
+    width: 350px;
     margin-top: 10px;
     border-radius: 8px;
     outline: none;
     border: none;
     color: white;
     background-color:  #3d437a;
+}
+input[type="submit"]:hover {
+    transition: .5s all;
+    background: #535991;
 }
 /* Começando Estilização da minha Imagem e Texto */
 .descricao-autor{
@@ -244,7 +249,7 @@ p.nome-autor{
 
 
 /* Responsividade */
-@media screen and (max-width:768px){
+@media screen and (max-width:950px){
     .box-especialidade{
         margin: 10px;
     }

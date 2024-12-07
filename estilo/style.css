@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
+    overflow-x: hidden;
 }
 /* Boot CSS */
 
@@ -245,6 +246,36 @@ p.nome-autor{
     padding: 15px 0;
     border-bottom: 1px solid #ccc;
 }
+section.erro-404 h2{
+    text-align: center;
+    font-weight: 400;
+    color: #444;
+    border-top: 2px solid #444;
+}
+section.erro-404 p{
+    font-size: 16px;
+    color: #444;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 16px;
+}
+section.erro-404 a{
+    font-weight: 300;
+}
+.wraper-404{
+    width: 100%;
+    max-width: 1280px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+footer.fixed{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
 
 
 
@@ -273,8 +304,6 @@ p.nome-autor{
         text-align: center;
         padding-bottom: 15px;
     }
-  
-    
 }
 @media screen and (max-width:700px){
     nav.desktop{

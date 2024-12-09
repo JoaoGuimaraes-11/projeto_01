@@ -7,7 +7,6 @@
     overflow-x: hidden;
 }
 /* Boot CSS */
-
 img{
     width: 100%;
 }
@@ -33,7 +32,6 @@ img{
     width: 33.3%;
     padding: 0 10px;
 }
-
 /* Estilização do site */
 header{
     background-color: #3d437a ;
@@ -48,6 +46,9 @@ header .logo a{
 }
 .mobile{
     display: none;
+}
+.desktop{
+    overflow-y: hidden;
 }
 nav.desktop ul{
     position: relative;
@@ -275,9 +276,41 @@ footer.fixed{
     width: 100%;
 }
 
-
-
-
+.contato-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10000;
+}
+.contato-container input[type=text]{
+    width: 350px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border: 2px solid #3d437a;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.contato-container textarea{
+    border: 1px solid red;
+    width: 350px;
+    height: 100px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    border: 2px solid #3d437a;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.contato-container form input[type="text"]:focus, .contato-container textarea {
+    border: 2px solid #3d437a;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    
+}
 
 /* Responsividade */
 @media screen and (max-width:950px){
